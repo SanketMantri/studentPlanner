@@ -19,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    func getContext () -> NSManagedObjectContext {
+        let appDelegate = UIApplication.shared.delegate
+            as! AppDelegate
+        return
+            appDelegate.persistentContainer.viewContext
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -74,6 +80,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
 
     // MARK: - Core Data Saving support
+    
 
     func saveContext () {
         let context = persistentContainer.viewContext
@@ -88,6 +95,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+//    func storePersonInfo (identification: Int, firstname: String, lastname:
+//        String,gender:String,address:String,age:Int) {
+//        let context = getContext()
+//        //retrieve the entity that we just created
+//        let entity = NSEntityDescription.entity(forEntityName: "Person", in:
+//            context)
+//        let transc = NSManagedObject(entity: entity!, insertInto: context)
+//        //set the entity values
+//        transc.setValue(identification, forKey: "identification")
+//        transc.setValue(firstname, forKey: "firstname")
+//        transc.setValue(lastname, forKey: "lastname")
+//        transc.setValue(gender, forKey: "gender")
+//        transc.setValue(address, forKey: "address")
+//        transc.setValue(age, forKey: "age")
+//
+//        //save the object
+//        do {
+//            try context.save()
+//        } catch let error as NSError {
+//            print("Could not save \(error), \(error.userInfo)")
+//        } catch { }
+//
+//    }
 }
 

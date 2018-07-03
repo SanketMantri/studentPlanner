@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6921586F1F9EF65B009DF306 /* icons8-Children Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6921586C1F9EF65B009DF306 /* icons8-Children Filled-50.png */; };
+		695D73821F99992700A43392 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D73811F99992700A43392 /* MapViewController.swift */; };
+		69AE35331F9EF7D200ED0CA0 /* icons8-Children Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AE35321F9EF7D200ED0CA0 /* icons8-Children Filled-32.png */; };
+		69AE35351F9EF87400ED0CA0 /* icons8-Event-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AE35341F9EF87400ED0CA0 /* icons8-Event-32.png */; };
+		69AE35371F9EF8BF00ED0CA0 /* icons8-Home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AE35361F9EF8BF00ED0CA0 /* icons8-Home-32.png */; };
 		69ED64591F8F23E4003269D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED64581F8F23E4003269D8 /* AppDelegate.swift */; };
 		69ED645B1F8F23E4003269D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED645A1F8F23E4003269D8 /* ViewController.swift */; };
 		69ED645E1F8F23E4003269D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ED645C1F8F23E4003269D8 /* Main.storyboard */; };
@@ -15,6 +20,12 @@
 		69ED64661F8F23E4003269D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ED64641F8F23E4003269D8 /* LaunchScreen.storyboard */; };
 		69ED64711F8F23E5003269D8 /* AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED64701F8F23E5003269D8 /* AssignmentTests.swift */; };
 		69ED647C1F8F23E5003269D8 /* AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED647B1F8F23E5003269D8 /* AssignmentUITests.swift */; };
+		69ED64901F8F6831003269D8 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED648F1F8F6831003269D8 /* FriendsTableViewController.swift */; };
+		69ED64921F9067E8003269D8 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED64911F9067E8003269D8 /* EventsTableViewController.swift */; };
+		69ED64951F906C43003269D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69ED64941F906C43003269D8 /* MapKit.framework */; };
+		69ED64991F907052003269D8 /* CreateFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED64981F907052003269D8 /* CreateFriendsViewController.swift */; };
+		69ED649D1F907B40003269D8 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED649C1F907B40003269D8 /* CreateEventViewController.swift */; };
+		69F8C4E21F98658B00D89F64 /* basetabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8C4E11F98658B00D89F64 /* basetabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6921586C1F9EF65B009DF306 /* icons8-Children Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Children Filled-50.png"; sourceTree = "<group>"; };
+		695D73811F99992700A43392 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		69AE35321F9EF7D200ED0CA0 /* icons8-Children Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Children Filled-32.png"; sourceTree = "<group>"; };
+		69AE35341F9EF87400ED0CA0 /* icons8-Event-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Event-32.png"; sourceTree = "<group>"; };
+		69AE35361F9EF8BF00ED0CA0 /* icons8-Home-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Home-32.png"; sourceTree = "<group>"; };
 		69ED64551F8F23E4003269D8 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69ED64581F8F23E4003269D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69ED645A1F8F23E4003269D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		69ED64771F8F23E5003269D8 /* AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69ED647B1F8F23E5003269D8 /* AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUITests.swift; sourceTree = "<group>"; };
 		69ED647D1F8F23E5003269D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69ED648F1F8F6831003269D8 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		69ED64911F9067E8003269D8 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		69ED64941F906C43003269D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		69ED64981F907052003269D8 /* CreateFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendsViewController.swift; sourceTree = "<group>"; };
+		69ED649C1F907B40003269D8 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		69F8C4E11F98658B00D89F64 /* basetabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basetabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ED64951F906C43003269D8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +99,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		692158691F9EF5B7009DF306 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6921586C1F9EF65B009DF306 /* icons8-Children Filled-50.png */,
+				69AE35361F9EF8BF00ED0CA0 /* icons8-Home-32.png */,
+				69AE35321F9EF7D200ED0CA0 /* icons8-Children Filled-32.png */,
+				69AE35341F9EF87400ED0CA0 /* icons8-Event-32.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		695D73831F99993C00A43392 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				695D73811F99992700A43392 /* MapViewController.swift */,
+				69ED645A1F8F23E4003269D8 /* ViewController.swift */,
+				69ED648F1F8F6831003269D8 /* FriendsTableViewController.swift */,
+				69ED64911F9067E8003269D8 /* EventsTableViewController.swift */,
+				69ED64981F907052003269D8 /* CreateFriendsViewController.swift */,
+				69ED649C1F907B40003269D8 /* CreateEventViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		695D73841F99996E00A43392 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69ED645F1F8F23E4003269D8 /* Assignment.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		695D73851F99998300A43392 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69F8C4E11F98658B00D89F64 /* basetabbar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		69ED644C1F8F23E4003269D8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +146,7 @@
 				69ED646F1F8F23E5003269D8 /* AssignmentTests */,
 				69ED647A1F8F23E5003269D8 /* AssignmentUITests */,
 				69ED64561F8F23E4003269D8 /* Products */,
+				69ED64931F906C43003269D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +163,15 @@
 		69ED64571F8F23E4003269D8 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				692158691F9EF5B7009DF306 /* images */,
 				69ED64581F8F23E4003269D8 /* AppDelegate.swift */,
-				69ED645A1F8F23E4003269D8 /* ViewController.swift */,
+				695D73851F99998300A43392 /* View */,
+				695D73831F99993C00A43392 /* Controller */,
 				69ED645C1F8F23E4003269D8 /* Main.storyboard */,
 				69ED64621F8F23E4003269D8 /* Assets.xcassets */,
 				69ED64641F8F23E4003269D8 /* LaunchScreen.storyboard */,
+				695D73841F99996E00A43392 /* Model */,
 				69ED64671F8F23E5003269D8 /* Info.plist */,
-				69ED645F1F8F23E4003269D8 /* Assignment.xcdatamodeld */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -126,6 +192,14 @@
 				69ED647D1F8F23E5003269D8 /* Info.plist */,
 			);
 			path = AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		69ED64931F906C43003269D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69ED64941F906C43003269D8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +271,11 @@
 					69ED64541F8F23E4003269D8 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					69ED646B1F8F23E5003269D8 = {
 						CreatedOnToolsVersion = 9.0;
@@ -235,8 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6921586F1F9EF65B009DF306 /* icons8-Children Filled-50.png in Resources */,
 				69ED64661F8F23E4003269D8 /* LaunchScreen.storyboard in Resources */,
+				69AE35351F9EF87400ED0CA0 /* icons8-Event-32.png in Resources */,
 				69ED64631F8F23E4003269D8 /* Assets.xcassets in Resources */,
+				69AE35331F9EF7D200ED0CA0 /* icons8-Children Filled-32.png in Resources */,
+				69AE35371F9EF8BF00ED0CA0 /* icons8-Home-32.png in Resources */,
 				69ED645E1F8F23E4003269D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +347,12 @@
 			files = (
 				69ED64611F8F23E4003269D8 /* Assignment.xcdatamodeld in Sources */,
 				69ED645B1F8F23E4003269D8 /* ViewController.swift in Sources */,
+				69F8C4E21F98658B00D89F64 /* basetabbar.swift in Sources */,
+				69ED64991F907052003269D8 /* CreateFriendsViewController.swift in Sources */,
+				695D73821F99992700A43392 /* MapViewController.swift in Sources */,
+				69ED649D1F907B40003269D8 /* CreateEventViewController.swift in Sources */,
+				69ED64901F8F6831003269D8 /* FriendsTableViewController.swift in Sources */,
+				69ED64921F9067E8003269D8 /* EventsTableViewController.swift in Sources */,
 				69ED64591F8F23E4003269D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
